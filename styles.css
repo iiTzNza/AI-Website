@@ -1,0 +1,113 @@
+/* styles.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-start; /* Start justification at the beginning */
+  }
+
+  nav li {
+    width: 25%; /* Adjust according to desired width */
+    text-align: center;
+    margin: 1% 0; /* Add top/bottom margins and remove side margins */
+    padding: 8px; /* Add padding around content */
+    border: 1px solid #ccc; /* Add border around content */
+    background-color: lightgray; /* Set background color */
+  }
+
+  nav a {
+    color: white; /* Change link color */
+    font-weight: bold; /* Make link text bolder */
+    text-decoration: none; /* Remove link underline */
+  }
+header h1 {
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer h3, footer p {
+    margin: 0;
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+footer input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+footer input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
